@@ -1,0 +1,62 @@
+.page {
+    width: 1400px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+
+}
+
+.header__container {
+    width: 1400px;
+    height: 68px;
+    background-color: bisque;
+    display: flex;
+
+    
+}
+
+.header__nav-items {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.header__nav-item{ 
+    text-decoration: none;
+    color: #323232;
+}
+
+.header__phone {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+
+.header__social-items {
+    list-style: none;
+    display: flex;
+}
+
+.header__social-item {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: red;
+    /* text-decoration: none; */
+
+}
+
+.header__contacts {
+    display: flex;
+
+}
+
+.header__social-instagram {
+    width: 22px;
+    height: 22px;
+    object-fit: cover;
+    
+    
+}
